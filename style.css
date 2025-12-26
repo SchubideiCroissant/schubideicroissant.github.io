@@ -26,9 +26,17 @@ body {
 .header-row {
         display: flex;         
         flex-direction: row;    
-        align-items: top;    
+        align-items: center;    
         justify-content: center; 
         gap: 10px;             
+    }
+
+.picture-row {
+        display: flex;         
+        flex-direction: row;    
+        align-items: center;    
+        justify-content: center; 
+        gap: 30px;             
     }
 
 .hr-line {
