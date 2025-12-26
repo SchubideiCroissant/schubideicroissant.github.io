@@ -1,0 +1,49 @@
+
+body {
+    
+    background-image: url(images/background.jpg);
+
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Mittig horizontal */
+    min-height: 100vh;       /* Gesamte Bildschirmhöhe nutzen */
+    font-family: "Times New Roman", Times, serif; /* Klassische Serif-Schrift */
+}
+
+/* 2. Der "4:3" Container */
+.main-container {
+    width: 800px;           
+    max-width: 95%;          
+    aspect-ratio: 4 / 3;     
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 3px solid #ffffff;  
+    padding: 20px;
+    box-sizing: border-box;  
+    overflow: auto;  
+    font-family: "Courier New", Courier, monospace;     
+}
+
+.header-row {
+        display: flex;         
+        flex-direction: row;    
+        align-items: top;    
+        justify-content: center; 
+        gap: 10px;             
+    }
+
+
+h1 {
+    padding-bottom: 5px;
+    text-align: center;
+    
+    color: rgb(21, 233, 145);
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
