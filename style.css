@@ -31,19 +31,38 @@ body {
         gap: 10px;             
     }
 
+.hr-line {
+    border: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.credit {
+    margin-top: auto; 
+    font-size: 13px;
+}
+ul{
+    list-style-type: "# ";
+}
+li::marker {
+    color: rgb(52, 6, 78);
+    font-weight: bold;
+}
+li {
+    color: #000000; /* Farbe des List-Textes */
+}
 
 h1 {
     padding-bottom: 5px;
     text-align: center;
-    
-    color: rgb(21, 233, 145);
-}
-hr {
-    border: 0;
-    height: 2px;
-    background-color: rgb(255, 255, 255);
+    color: rgb(52, 6, 78);
 }
 a {
     color: blue;
     text-decoration: underline;
 }
+a:hover {
+    color: #eae3fd; 
+    background-color: #fc0b2b69;
+}
+
+

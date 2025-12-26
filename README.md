@@ -1,2 +1,2 @@
-# schubideicroissant.github.io
-Meine Website
+# Personal Webpage
+[Link to Page](https://schubideicroissant.github.io/)
