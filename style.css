@@ -36,7 +36,9 @@ body {
         flex-direction: row;    
         align-items: center;    
         justify-content: center; 
-        gap: 30px;             
+        gap: 30px;    
+        margin-top: 1px; 
+
     }
 
 .hr-line {
@@ -45,7 +47,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 .credit {
-    margin-top: auto; 
+    margin-top: 200px; 
     font-size: 13px;
 }
 ul{
