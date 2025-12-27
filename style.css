@@ -6,17 +6,20 @@ body {
     margin: 0;
     display: flex;
     justify-content: center; /* Mittig horizontal */
-    min-height: 100vh;       /* Gesamte Bildschirmhöhe nutzen */
-    font-family: "Times New Roman", Times, serif; /* Klassische Serif-Schrift */
+    min-height: 100vh;      
+    font-family: "Courier New", Courier, monospace;   
 }
 
-/* 2. Der "4:3" Container */
+/*  4:3 Container */
 .main-container {
     width: 800px;           
     max-width: 95%;          
     aspect-ratio: 4 / 3;     
-    background-color: rgb(255, 255, 255, 0.5);
-    border: 3px solid #ffffff;  
+    background-color: rgba(255, 255, 255, 0.45);
+    border: 1px solid #ffffff;  
+    border-radius: 2px;
+    box-shadow: 0 80px 30px rgba(0, 0, 0, 0.192), 
+                0 40px 40px rgba(255, 255, 255, 0.8);
     padding: 20px;
     box-sizing: border-box;  
     overflow: auto;  
@@ -28,8 +31,11 @@ body {
         flex-direction: row;    
         align-items: center;    
         justify-content: center; 
-        gap: 10px;             
+        gap: 70px;             
     }
+.header-row h1, .header-row h2 {
+    margin: 0;                 /* Entfernt Standard-Abstände, die das Zentrieren stören */
+}
 
 .picture-row {
         display: flex;         
@@ -50,7 +56,7 @@ ul{
     list-style-type: "# ";
 }
 li::marker {
-    color: rgb(52, 6, 78);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 li {
@@ -60,10 +66,13 @@ li {
 h1 {
     padding-bottom: 5px;
     text-align: center;
-    color: rgb(52, 6, 78);
+    color: rgb(66, 25, 90);
+}
+h3 {
+    color: rgba(0, 0, 0, 0.788);
 }
 a {
-    color: blue;
+    color: rgb(69, 16, 194);
     text-decoration: underline;
 }
 a:hover {
@@ -71,7 +80,7 @@ a:hover {
     background-color: #fc0b2b69;
 }
 .credit {
-    margin-top: 100px; 
+    margin-top: 140px; 
     font-size: 13px;
 }
 
